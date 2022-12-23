@@ -1,0 +1,39 @@
+body    {
+    background-color: grey;
+}
+.box_1  {
+    width: 75%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 10%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.toast    {
+    justify-content: space-around;
+    margin: 10px 40px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    border-left: 5px solid salmon;
+}
+.toast__icon    {
+    font-size: 30px;
+    background-color:  green;
+    border-radius: 100%;
+    color: #fff;
+
+}
+.toast__close   {
+    font-size: 30px;
+}
+.toast__body__sms   {
+    margin-top: 2px;
+}
+.toast__body__title   {
+    margin-bottom: 2px;
+}

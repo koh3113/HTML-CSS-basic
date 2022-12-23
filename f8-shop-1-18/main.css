@@ -1,0 +1,44 @@
+:root   {
+    --text-color: yellow;
+}
+.heading    {
+    font-size: 15px;
+}
+#first_heading  {
+    font-size: 40px;
+    color: var(--text-color);
+}
+#second_heading {
+    font-size: 50px;
+    color:aliceblue
+}
+.box    {
+    width: 200px;
+    height: 100px;
+    line-height: 50px;
+}
+.box1    {
+    /* example padding*/
+    padding: 20px;
+    background-color: blue;
+    text-align: center;
+}
+.box2    {
+    /* example border*/
+    background-color: red;
+    text-align: center;
+    border: 10px;
+    border-style: solid;
+    border-color: aqua;
+}
+.box3    {
+    /* example margin, and box sizing, feel free to change*/
+    border: 10px;
+    border-style: solid;
+    border-color: violet;
+    padding: 10px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+    box-sizing: border-box;
+}
